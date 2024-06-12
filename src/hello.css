@@ -1,0 +1,61 @@
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Full screen height */
+    background-color: #f2f2f2; /* Light grey background */
+}
+
+.btn1 {
+    background: #ffffff; /* White background */
+    padding: 20px; /* Space inside the container */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Slight shadow */
+    max-width: 400px; /* Max width for the container */
+    width: 100%; /* Full width */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    margin-bottom: 10px; /* Space between fields */
+    padding: 10px; /* Space inside the fields */
+    border: 1px solid #ccc; /* Border around fields */
+    border-radius: 4px; /* Slightly rounded corners */
+    width: 100%; /* Full width of the container */
+    box-sizing: border-box; /* Ensure padding doesn't exceed container width */
+}
+
+button[type="submit"] {
+    padding: 10px 15px; /* Space inside the button */
+    border: none; /* No border */
+    border-radius: 4px; /* Slightly rounded corners */
+    background-color: #007bff; /* Primary blue color */
+    color: white; /* White text */
+    font-size: 16px; /* Larger text size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+a {
+    display: block; /* Block display for spacing */
+    margin-top: 10px; /* Space above the link */
+    text-align: center; /* Center the link text */
+    color: #007bff; /* Primary blue color */
+    text-decoration: none; /* No underline */
+    font-size: 14px; /* Slightly smaller text */
+    transition: color 0.3s; /* Smooth transition */
+}
+
+a:hover {
+    color: #0056b3; /* Darker blue on hover */
+}
